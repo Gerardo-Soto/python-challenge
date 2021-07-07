@@ -1,3 +1,21 @@
+"""
+Given an integer numRows, return the first numRows of Pascal's triangle.
+
+In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
+
+Input: numRows = 5
+Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
+
+Output: [[1],
+        [1,1],
+       [1,2,1],
+      [1,3,3,1],
+     [1,4,6,4,1]
+
+Time Submitted: 16-Dic-2020  17:18
+"""
+
+
 class Solution(object):
     def generate(self,numRows):
         """
@@ -53,8 +71,8 @@ def run():
     print(sol_pascal_triangle)
     print("<Type of solution::::::::::::::::::: {}".format(type(sol_pascal_triangle)))
     
-    for vector in sol_pascal_triangle:
-        print(vector)
+for vector in sol_pascal_triangle:
+    print(vector)
 
 if __name__ == '__main__':
     run()
@@ -63,7 +81,7 @@ if __name__ == '__main__':
 
 SUCCESS     Details:
 
-Runtime:        24 ms,   faster than     12.47%  of Python online submissions for Pascal's Triangle.
-Memory Usage:   13.7 MB  less than       11.47%  of Python online submissions for Pascal's Triangle.
+Runtime:        28 ms,   faster than     83.63%  of Python online submissions for Pascal's Triangle.
+Memory Usage:   14.4 MB  less than       23.77%  of Python online submissions for Pascal's Triangle.
 
 """
